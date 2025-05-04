@@ -1385,6 +1385,19 @@ span#main {
 .modal-dialog .social-link li a {
   color: var(--main-color);
 }
+ 
+/* --- Blur para Modal --- */
+
+.blog-modal-img img[loading="lazy"] {
+  opacity: 0;
+  filter: blur(8px);
+  transition: opacity 0.4s ease, filter 0.4s ease;
+}
+
+.blog-modal-img img.loaded {
+  opacity: 1;
+  filter: blur(0);
+}
 
 /* ---  Contacto y Footer --- */
 
