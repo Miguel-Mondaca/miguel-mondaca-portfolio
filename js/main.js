@@ -248,15 +248,4 @@
         }
     });
 
-    // 15. ---- Blur para la carga de imágen de Modal ----
-
-    document.addEventListener("DOMContentLoaded", function () {
-        const modalLazyImages = document.querySelectorAll('.blog-modal-img img[loading="lazy"]');
-        modalLazyImages.forEach(img => {
-            img.addEventListener('load', () => {
-                img.classList.add('loaded');
-            });
-        });
-    });
-
 })(jQuery);
