@@ -1190,10 +1190,6 @@ span#main {
 
 /* ---  Services --- */
 
-.single-service {
-  box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
-}
-
 .single-service:hover {
   transform: translateY(-15px);
 }
